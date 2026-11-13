@@ -73,7 +73,7 @@ deployed at the link above.
 
 Ranking all training rows by predicted risk: the **top 10% of road
 conditions carry 1.82× their proportional share of total predicted risk**
-(19.3% of total risk mass concentrated in 10% of segments). This is
+(18.2% of total predicted risk concentrated in 10% of segments). This is
 measured directly from the model's own output, not assumed.
 
 | Risk tier | % of segments | Share of total predicted risk | Concentration ratio |
