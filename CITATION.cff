@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Safe-Route: Explainable Risk Scoring for Infrastructure Safety Prioritization"
+abstract: >-
+  A working prototype that scores combinations of road and environmental
+  conditions with a Random Forest model and explains each score with TreeSHAP,
+  to help road engineers build a reviewable inspection shortlist. Trained on
+  synthetic data (Kaggle Playground Series S5E10). Selected for presentation
+  at the 4th International Conference on Smart Sustainable Development
+  (SSD 2026) project showcase, project P21.
+type: software
+authors:
+  - family-names: Aryal
+    given-names: Roshan
+    affiliation: "Independent Researcher, Auckland, New Zealand"
+    orcid: "https://orcid.org/0009-0001-4758-4977"
+repository-code: "https://github.com/roshanaryal1/SafeRoute"
+url: "https://roadaccident-roshanar-aryal.streamlit.app/"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-14"
+keywords:
+  - explainable-ai
+  - road-safety
+  - shap
+  - random-forest
+  - sustainable-development
