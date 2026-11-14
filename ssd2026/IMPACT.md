@@ -49,27 +49,24 @@ Published engineering countermeasures (signage, lighting upgrades, curve
 treatment) have documented crash-reduction effects in the 15–30% range at
 treated sites (FHWA Crash Modification Factors Clearinghouse — a repository
 of 3,000+ peer-reviewed countermeasure studies). We use three effectiveness
-scenarios against the risk mass held by the top-10% tier (19.3% of total):
+scenarios against the predicted risk mass held by the top-10% tier (18.2% of
+the total, from section 1). If a treatment removed a given share of the
+risk mass inside that tier, the reduction in total predicted risk mass is
+18.2% multiplied by that share:
 
-| Scenario | Assumed effectiveness | Potential reduction in top-10%-tier risk mass | As share of total network risk mass |
-|---|---:|---:|---:|
-| Conservative | 15% | 2.9% | 0.6% |
-| Moderate | 20% | 3.9% | 0.8% |
-| Strong | 30% | 5.8% | 1.2% |
+| Scenario | Assumed effectiveness within the top-10% tier | Reduction in total predicted risk mass |
+|---|---:|---:|
+| Conservative | 15% | 2.7% |
+| Moderate | 20% | 3.6% |
+| Strong | 30% | 5.5% |
 
-**Translating to New Zealand scale, illustratively:** NZ's provisional road
-toll was 289 deaths in 2024 and 340 in 2023 (NZTA/Police, via 1News). If a
-regional roading authority used this kind of targeting to prioritize a
-comparable share of its serious-crash risk exposure, the moderate scenario
-(0.8% of total network risk mass) applied to ~300 annual deaths is an
-order-of-magnitude illustration of ~2–3 fewer fatalities/year — **stated as
-a scenario range under the assumptions above, not a prediction or a
-guarantee.** Waka Kotahi values the social cost of a single road fatality
-at NZD $14.98M (2024 prices, land-value + medical + legal + vehicle-damage
-components) — useful for framing scale, kept as a tertiary, clearly-labeled
-figure rather than the headline number, since monetary valuation adds
-assumptions (value-of-life methodology) on top of the crash-count chain
-already built above.
+These are reductions in the model's predicted risk score on synthetic data,
+not reductions in crashes, injuries or deaths. Converting them into real-world
+outcomes would need observed crash data with exposure and a before-and-after
+evaluation of actual treatments, which is the purpose of the proposed pilot.
+An earlier version of this section used 19.3% for the tier share, applied
+the share twice, and translated the result into fatalities; those figures are
+withdrawn.
 
 ## 3. What this section deliberately does not claim
 
@@ -83,6 +80,4 @@ already built above.
 
 Sources: WHO Global Status Report on Road Safety 2023
 (who.int/publications/i/item/9789240086517); FHWA CMF Clearinghouse
-(cmfclearinghouse.fhwa.dot.gov); NZTA/Police provisional road toll figures
-via 1News (1news.co.nz, Jan 2024 and Jan 2025 reports); Waka Kotahi social
-cost of a fatal crash (NZTA benefits-management guidance, June 2024 prices).
+(cmfclearinghouse.fhwa.dot.gov).

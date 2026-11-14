@@ -1,6 +1,11 @@
 # Road Accident Risk Predictor
 ### Explainable Risk Scoring for Infrastructure Safety Prioritization
 
+> The PDFs and `SSD2026_submission.zip` in this folder are the documents as
+> submitted in August 2026. They predate two corrections made here: the
+> top-10% tier holds 18.2% of predicted risk (not 19.3%), and the
+> scenario-impact table in `IMPACT.md` was recalculated.
+
 **Author:** Roshan Aryal
 **Affiliation:** Independent Researcher, Auckland, New Zealand
 **Live demo:** https://roadaccident-roshanar-aryal.streamlit.app/
